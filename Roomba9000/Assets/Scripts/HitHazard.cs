@@ -15,7 +15,7 @@ public class HitHazard : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-		gameController = GameObject.FindWithTag("GameController").GetComponent<GameController>();
+		gameController = GameObject.FindWithTag(" ").GetComponent<GameController>();
 		if (gameController == null)
 		{
 			Debug.Log("gameController in HitHazard.cs is null.");
